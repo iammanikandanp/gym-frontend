@@ -81,7 +81,7 @@ export const ContactUs = () => {
         setLoading(true);
         try {
 
-            const response = await axios.post("http://localhost:5000/api/v1/std/register", data);
+            const response = await axios.post("https://wfc-backend.onrender.com/api/v1/std/register", data);
 
             toast.success(response.data.message);
             setData({

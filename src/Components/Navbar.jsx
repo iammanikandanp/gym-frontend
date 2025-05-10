@@ -49,7 +49,7 @@ export const Navbar = () => {
       </nav>
 
       {open && (
-        <ul className='fixed top-[70px] right-0 bg-[#000000] text-lg text-white p-3 rounded-md shadow-lg z-[999] min-[600px]:hidden'>
+        <ul className='fixed top-[70px] right-[80px] bg-[#000000] text-lg text-white p-3 rounded-md shadow-lg z-[999] min-[600px]:hidden'>
           <li className='px-4'>
             <a href="#about" onClick={toggleClose} className='cursor-pointer text-left w-full py-1 block hover:text-red-500'>About</a>
           </li>
